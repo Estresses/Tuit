@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Poppins:wght@200;400&family=Roboto+Condensed:wght@300&display=swap');
+body {
+    background-color: rgb(21, 21, 21);
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+#home,#not,#perfil{
+    color:#ff1cce;
+}
+#tuite,
+button {
+    border-radius: 100px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, #ff1cce, #ff6a00);
+    width: 120px;
+}
+h1{
+    font-size: 70px;
+}
+.links:hover{
+    background-color: #323232;
+}
+
+li {
+    padding: 20px;
+    margin-bottom: 2px;
+    background-color: rgb(40, 40, 40);
+    list-style-image: url(do-utilizador.png);
+    list-style-position: outside;
+    color: aliceblue;
+    box-shadow: 1px 1px 1px black;
+    background-size: 20px;
+    width: 700px;
+    font-size: 20px;
+    word-break: break-all;
+
+}
+
+.tweet {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerleft {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 20px;
+    border-right: 1px solid rgb(55, 55, 55);
+    min-height: 640px;
+}
+
+li::after {
+    content: "ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ❤ 0ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ💬 0ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ↪";
+    font-size: 15px;
+    display: block;
+    color: #888;
+}
+
+.posts::after {
+    content: "ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ❤ 3milﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ💬 737ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ↪";
+    font-size: 15px;
+    display: block;
+    color: #888;
+}
+
+.posts2::after {
+    content: "ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ❤ 221ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ💬 4ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ↪";
+    font-size: 15px;
+    display: block;
+    color: #888;
+}
+
+li::before {
+    display: block;
+    content: "Usuário @usuario275 • now";
+    color: rgb(255, 0, 166);
+    font-size: 15px;
+}
+
+
+.posts::before {
+    display: block;
+    content: "Usuário @Tuit_ltda • 2min";
+    color: rgb(255, 0, 166);
+    font-size: 15px;
+}
+
+.posts2::before {
+    display: block;
+    content: "Usuário @God_of_coxinhas • 4min";
+    color: rgb(255, 0, 166);
+    font-size: 15px;
+}
+
+main {
+    display: flex;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.home {
+    display: block;
+    justify-content: left;
+    width: 100px;
+    border-bottom: 1px solid rgb(55, 55, 55);
+    min-width: 800px;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.caixaescrever {
+    display: block;
+    justify-content: left;
+    width: 100px;
+    border-bottom: 1px solid rgb(55, 55, 55);
+    min-width: 800px;
+}
+
+#feed {
+    margin-top: 20px;
+}
+
+.containerright {
+    justify-content: left;
+    border-left: 1px solid rgb(55, 55, 55);
+    min-height: 640px;
+}
+
+textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 800px;
+    border: none;
+    background-color: black;
+    height: 100px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.pesquisar {
+    background-color: black;
+    border-radius: 16px;
+    width: 100%;
+    height: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    color: #ff6a00;
+}
+
+.descubra {
+    background-color: #404040;
+    border-radius: 6px;
+
+    padding: 10px;
+    margin-top: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.descubra:hover{
+    background-color: #323232
+}
+.t {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.foto-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.perfil {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.info {
+    background-color: #404040;
+    border-radius: 16px;
+    width: 100px;
+    text-align: center;
+}
+.Logout{
+    margin-top: 30px;
+}
+
+.user{
+    margin-top: 30px;
+}
+
+.notfic{
+    border-bottom: 1px solid #404040;
+    background-color: #ff9a35;
+    padding: 10px;
+    margin-top: 2px;
+    text-shadow: 1px 1px 2px black;
+    cursor: pointer;
+}
+.notfic:hover{
+    background-image: linear-gradient(to bottom, #ff1cce, #ff6a00); 
+}
+footer{
+    border-top: 1px solid #404040;
+    text-align: center;
+}
+
+.tela-cadastro{
+    background-color: #323232;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    box-shadow: 1px 1px 1px 1px black;
+    padding: 70px;
+    align-items: center;
+    gap: 4px;
+}
+
+.login{
+    text-decoration:underline;
+    color: #ff1cce;
+}
+
+.Explorar{
+    margin-top: 7px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
